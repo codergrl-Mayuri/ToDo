@@ -9,7 +9,7 @@ import Sun from "./components/Sun";
 
 const style = {
   bg: `relative h-screen w-screen overflow-hidden p-4 bg-gradient-to-tr from-[#0bd1ff] via-[#ffa3ff] to-[#ffd342]`,
-  container: `backdrop-blur-sm bg-white/30 max-w-[500px] w-full m-auto rounded-md shadow-xl p-4 relative`,
+  container: `backdrop-blur-sm bg-white/30 max-w-[500px] w-full m-auto rounded-md shadow-xl p-4 relative z-10`,
   heading: `text-3xl font-bold text-center text-gray-800 p-2`,
   form: `flex justify-between p-3`,
   input: `backdrop-blur-sm bg-white/40 p-2 w-full text-xl rounded-md`,
